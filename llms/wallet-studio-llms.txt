@@ -1,0 +1,26 @@
+# Wallet Studio
+
+> Wallet Studio, by Miss Moneypenny Technologies GmbH, is a no-code SaaS platform for building, deploying, and managing Apple Wallet and Google Wallet passes. It targets insurance carriers, turning policy admin, claims, and CRM systems into wallet-based customer engagement channels. The platform exposes a REST API and webhooks for integration; there is no public developer portal, API reference, or OpenAPI specification (the REST API is provisioned per customer).
+
+## Company
+- Website: https://www.walletstudio.com
+- Solution: https://www.walletstudio.com/solution
+- Features: https://www.walletstudio.com/features
+- Technology: https://www.walletstudio.com/technology
+- Case Studies: https://www.walletstudio.com/case-studies
+- Newsroom (blog): https://www.walletstudio.com/newsroom
+- About: https://www.walletstudio.com/about
+- Contact: https://www.walletstudio.com/contact
+- GitHub organization: https://github.com/missmp
+- LinkedIn: https://www.linkedin.com/company/missmoneypennytechnologies
+- Privacy policy: https://www.iubenda.com/privacy-policy/81034721
+
+## Integration surface
+- REST API: advertised on the technology page for connecting Wallet Studio with existing systems and third-party tools. No public specification or reference documentation is published.
+- Webhooks: advertised for real-time wallet event connectivity into automation systems.
+- Authentication: authenticated links to portals and value-added services (no public auth documentation).
+
+## Notes
+- No public /.well-known discovery documents (security.txt, openid-configuration, oauth-authorization-server, api-catalog, ai-plugin.json all return 404).
+- No first-party SDKs or client libraries; the GitHub organization contains only upstream forks.
+- Compliance posture stated on the technology page: GDPR-compliant EU hosting, enterprise/ISO security certification, trust relationships cited with Google and Visa.

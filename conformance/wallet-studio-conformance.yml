@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.walletstudio.com/technology
+standards:
+  - id: gdpr
+    conforms: true
+    evidence: >-
+      Technology page states GDPR-compliant hosting and secure, compliant data
+      handling for the EU-hosted SaaS platform.
+  - id: iso-27001
+    conforms: true
+    evidence: >-
+      Technology page states the platform is certified for enterprise security
+      standards and describes itself as ISO-certified. No named certificate
+      document is published, so this is captured as a stated posture only.
+  - id: oauth2
+    conforms: false
+    evidence: No public OpenAPI or OAuth discovery document is published.
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: No public OpenAPI to confirm application/problem+json error responses.
+notes: >-
+  Wallet Studio advertises GDPR-compliant hosting and enterprise/ISO security
+  certification on its technology page, and cites trust relationships with
+  Google and Visa. These are marketing-stated compliance claims; no dedicated
+  trust center or named certification document was found, so no `Compliance`
+  rating pointer is emitted.

@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: probed
+source: dns + tls probe of walletstudio.com (Website)
+hosts:
+  - host: www.walletstudio.com
+    https: true
+    tls_version: TLSv1.3
+    cert_not_after: '2026-10-04'
+    hsts: true
+    hsts_max_age: 31536000
+    server: cloudflare (Webflow)
+  - host: walletstudio.com
+    https: true
+    tls_version: TLSv1.3
+    hsts: true
+    hsts_max_age: 31536000
+    server: cloudflare (Webflow)
+domains:
+  - domain: walletstudio.com
+    dnssec: false
+    caa: []
+    spf: false
+    dmarc: false
+    dmarc_policy: null
+    mx: google (smtp.google.com)
+notes: >-
+  Website is hosted on Webflow behind Cloudflare with TLS 1.3 and a one-year
+  HSTS max-age. Email runs on Google Workspace. No CAA record, no SPF TXT
+  record (only google-site-verification and ACME challenge TXT present), no
+  DMARC record, and the zone is not DNSSEC-signed.

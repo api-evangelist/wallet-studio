@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.walletstudio.com
+host: https://www.walletstudio.com
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+notes: >-
+  No /.well-known discovery documents are published on the Wallet Studio
+  marketing host (all probed paths return 404). The apex host
+  https://walletstudio.com/.well-known/security.txt also returns 404. No public
+  API host exists (api.walletstudio.com is NXDOMAIN); the REST API is
+  customer-provisioned rather than a public developer surface.

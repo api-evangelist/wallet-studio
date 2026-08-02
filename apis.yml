@@ -1,7 +1,31 @@
 aid: wallet-studio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wallet-studio.png
 name: Wallet Studio
-description: Wallet Studio is a company surfaced as a portfolio company of earlybird and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Wallet Studio, built by Miss Moneypenny Technologies GmbH, is a no-code SaaS
+  platform for creating, deploying, and managing Apple Wallet and Google Wallet
+  passes. Aimed primarily at insurance carriers, it turns policy administration,
+  claims, and CRM systems into wallet-based customer engagement channels reaching
+  the four billion people who already carry a digital wallet, without replacing
+  existing backend infrastructure. The platform offers visual pass editors with
+  one-click publishing, prebuilt insurance templates, integrated automation, a
+  REST API and webhooks for connecting to third-party systems, and authenticated
+  links to portals and value-added services. Hosting is GDPR-compliant and the
+  company describes the platform as certified for enterprise security standards.
+  Backed by Earlybird, the company raised roughly EUR 7 million in 2025. There is
+  no public developer portal, API reference, or OpenAPI specification; the REST
+  API is provisioned per customer.
 url: https://raw.githubusercontent.com/api-evangelist/wallet-studio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,53 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Digital Wallet
+- Apple Wallet
+- Google Wallet
+- Passes
+- Insurance
+- Insurtech
+- SaaS
+- No-Code
+- Fintech
+- REST API
+- Webhooks
+- Customer Engagement
+- GDPR
 apis: []
+common:
+- type: Website
+  url: https://www.walletstudio.com
+- type: Blog
+  url: https://www.walletstudio.com/newsroom
+- type: Support
+  url: https://www.walletstudio.com/contact
+- type: GitHubOrganization
+  url: https://github.com/missmp
+- type: LinkedIn
+  url: https://www.linkedin.com/company/missmoneypennytechnologies
+- type: PrivacyPolicy
+  url: https://www.iubenda.com/privacy-policy/81034721
+- type: Webhooks
+  url: https://www.walletstudio.com/technology
+- type: WellKnown
+  url: well-known/wallet-studio-well-known.yml
+- type: DomainSecurity
+  url: security/wallet-studio-domain-security.yml
+- type: Conformance
+  url: conformance/wallet-studio-conformance.yml
+- type: LLMsTxt
+  url: llms/wallet-studio-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
