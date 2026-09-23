@@ -2,7 +2,13 @@ generated: '2026-07-21'
 method: searched
 source: https://www.walletstudio.com
 host: https://www.walletstudio.com
-documents:
+notes: No /.well-known discovery documents are published on the Wallet Studio marketing host (all probed
+  paths return 404). The apex host https://walletstudio.com/.well-known/security.txt also returns 404.
+  No public API host exists (api.walletstudio.com is NXDOMAIN); the REST API is customer-provisioned rather
+  than a public developer surface.
+hosts:
+- host: https://www.walletstudio.com
+  documents:
   - path: /.well-known/security.txt
     status: 404
   - path: /.well-known/openid-configuration
@@ -13,9 +19,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
-notes: >-
-  No /.well-known discovery documents are published on the Wallet Studio
-  marketing host (all probed paths return 404). The apex host
-  https://walletstudio.com/.well-known/security.txt also returns 404. No public
-  API host exists (api.walletstudio.com is NXDOMAIN); the REST API is
-  customer-provisioned rather than a public developer surface.
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
