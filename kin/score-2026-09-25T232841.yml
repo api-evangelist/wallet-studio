@@ -1,24 +1,22 @@
-# Kin Score artifact — wallet-studio — 2026-08-31T223420
+# Kin Score artifact — wallet-studio — 2026-09-25T232841
 # The API Evangelist rating (https://github.com/api-evangelist/kin-score). Generated; do not edit.
 ---
 kin_score:
   slug: wallet-studio
-  schema_version: 0.17.2
-  scored_at: '2026-08-31'
-  run_ts: 2026-08-31T223420
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  run_ts: 2026-09-25T232841
   composite: 12.1
   band: emerging
   facets:
-    discoverability: 57.4
+    discoverability: 55.4
     contract_quality: 0.0
-    governance: 18.2
+    contract_governance: 18.2
     operational_transparency: 10.5
     developer_ergonomics: 7.1
-    commercial_clarity: 10.5
-    contract_governance: 18.2
     access_clarity: 10.5
   agent_readiness:
-    score: 4.3
+    score: 3.9
     band: human-only
     dimensions:
       spec_presence: false
@@ -30,7 +28,7 @@ kin_score:
       error_semantics: false
       openapi_examples: false
       rate_limit_signal: false
-      event_surface_described: true
+      event_surface_described: unknown
       agent_skills: false
       well_known_catalog: false
       consent_identity: false
@@ -44,7 +42,7 @@ kin_score:
     applies: true
     regime: Insurance
     regime_id: insurance
-    score: 22.7
+    score: 13.2
     matched_via: tags
   provenance:
     conformance: first-party
